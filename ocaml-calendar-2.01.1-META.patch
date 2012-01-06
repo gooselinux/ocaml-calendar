@@ -1,0 +1,13 @@
+--- calendar-2.01.1/Makefile.in.orig	2009-10-08 14:28:50.633555407 +0100
++++ calendar-2.01.1/Makefile.in	2009-10-08 14:29:07.767560374 +0100
+@@ -114,8 +114,8 @@
+ META: Makefile
+ 	echo "description = \"$(NAME) library\"" > $@
+ 	echo "version = \"$(VERSION)\"" >> $@
+-	echo "archive(byte) = \"$(NAMELIB).cmo $(NAMELIB).cma\"" >> $@
+-	echo "archive(native) = \"$(NAMELIB).cmx $(NAMELIB).cmxa\"" >> $@
++	echo "archive(byte) = \"$(NAMELIB).cma\"" >> $@
++	echo "archive(native) = \"$(NAMELIB).cmxa\"" >> $@
+ 	echo "requires = \"unix str\"" >> $@
+ 
+ # Generic rules
